@@ -1,5 +1,5 @@
 {
-  "name": "design-system-boilerplate",
+  "name": "design-system-fiege",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,6 +12,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "path": "^0.12.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -25,6 +26,7 @@
     "@storybook/react": "^8.4.7",
     "@storybook/react-vite": "^8.4.7",
     "@storybook/test": "^8.4.7",
+    "@types/node": "^22.10.1",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.4",
